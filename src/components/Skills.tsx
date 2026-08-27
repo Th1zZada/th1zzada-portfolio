@@ -1,143 +1,433 @@
 function Skills() {
   return (
-    <section id="skills" className="skills">
+    <section className="skills" id="skills">
 
       <div className="section-container">
 
+        {/* HEADER */}
+
         <div className="section-header">
-          <span className="section-number">02</span>
-          <h2>SKILLS</h2>
+
+          <span className="section-number">
+            02
+          </span>
+
+          <h2>
+            SKILLS
+          </h2>
+
         </div>
 
+
+        {/* INTRO */}
+
         <p className="skills-intro">
-          Technologies and tools I use to build,
-          manage and deploy digital solutions.
+          Technologies and tools I use to build websites,
+          applications, server environments and practical
+          IT solutions.
         </p>
 
 
-        {/* DEVELOPMENT */}
+        {/* PROGRAMMING */}
 
         <div className="skills-category">
 
-          <h3>DEVELOPMENT</h3>
+          <h3>
+            PROGRAMMING &amp; WEB
+          </h3>
+
 
           <div className="skills-grid">
 
-            <div className="skill-card">
-              <span className="skill-icon">HTML</span>
-              <h4>HTML</h4>
-              <p>Web Structure</p>
-            </div>
 
-            <div className="skill-card">
-              <span className="skill-icon">CSS</span>
-              <h4>CSS</h4>
-              <p>Web Styling</p>
-            </div>
+            {/* HTML */}
 
-            <div className="skill-card">
-              <span className="skill-icon">JS</span>
-              <h4>JavaScript</h4>
-              <p>Web Development</p>
-            </div>
+            <article className="skill-card">
 
-            <div className="skill-card">
-              <span className="skill-icon">TS</span>
-              <h4>TypeScript</h4>
-              <p>Modern Development</p>
-            </div>
+              <div className="skill-icon">
+                HTML
+              </div>
 
-            <div className="skill-card">
-              <span className="skill-icon">R</span>
-              <h4>React</h4>
-              <p>Frontend Development</p>
-            </div>
+              <h4>
+                HTML
+              </h4>
 
-            <div className="skill-card">
-              <span className="skill-icon">N</span>
-              <h4>Node.js</h4>
-              <p>Backend Development</p>
-            </div>
+              <p>
+                Semantic and structured web pages.
+              </p>
+
+              <div className="skill-level">
+
+                <div className="skill-level-bar">
+                  <span className="level-html"></span>
+                </div>
+
+                <span className="skill-level-text">
+                  Advanced
+                </span>
+
+              </div>
+
+            </article>
+
+
+            {/* CSS */}
+
+            <article className="skill-card">
+
+              <div className="skill-icon">
+                CSS
+              </div>
+
+              <h4>
+                CSS
+              </h4>
+
+              <p>
+                Responsive layouts, animations and modern UI.
+              </p>
+
+              <div className="skill-level">
+
+                <div className="skill-level-bar">
+                  <span className="level-css"></span>
+                </div>
+
+                <span className="skill-level-text">
+                  Advanced
+                </span>
+
+              </div>
+
+            </article>
+
+
+            {/* JAVASCRIPT */}
+
+            <article className="skill-card">
+
+              <div className="skill-icon">
+                JS
+              </div>
+
+              <h4>
+                JavaScript
+              </h4>
+
+              <p>
+                Interactive web applications and logic.
+              </p>
+
+              <div className="skill-level">
+
+                <div className="skill-level-bar">
+                  <span className="level-js"></span>
+                </div>
+
+                <span className="skill-level-text">
+                  Intermediate
+                </span>
+
+              </div>
+
+            </article>
+
+
+            {/* TYPESCRIPT */}
+
+            <article className="skill-card">
+
+              <div className="skill-icon">
+                TS
+              </div>
+
+              <h4>
+                TypeScript
+              </h4>
+
+              <p>
+                Typed and maintainable frontend applications.
+              </p>
+
+              <div className="skill-level">
+
+                <div className="skill-level-bar">
+                  <span className="level-ts"></span>
+                </div>
+
+                <span className="skill-level-text">
+                  Intermediate
+                </span>
+
+              </div>
+
+            </article>
+
+
+            {/* REACT */}
+
+            <article className="skill-card">
+
+              <div className="skill-icon">
+                RE
+              </div>
+
+              <h4>
+                React
+              </h4>
+
+              <p>
+                Component-based modern web interfaces.
+              </p>
+
+              <div className="skill-level">
+
+                <div className="skill-level-bar">
+                  <span className="level-react"></span>
+                </div>
+
+                <span className="skill-level-text">
+                  Intermediate
+                </span>
+
+              </div>
+
+            </article>
+
+
+            {/* NODE */}
+
+            <article className="skill-card">
+
+              <div className="skill-icon">
+                N
+              </div>
+
+              <h4>
+                Node.js
+              </h4>
+
+              <p>
+                Backend services and server-side applications.
+              </p>
+
+              <div className="skill-level">
+
+                <div className="skill-level-bar">
+                  <span className="level-node"></span>
+                </div>
+
+                <span className="skill-level-text">
+                  Intermediate
+                </span>
+
+              </div>
+
+            </article>
+
 
           </div>
 
         </div>
 
 
-        {/* SYSTEMS & NETWORKS */}
+        {/* SYSTEMS */}
 
         <div className="skills-category">
 
-          <h3>SYSTEMS & NETWORKS</h3>
+          <h3>
+            SYSTEMS &amp; NETWORKING
+          </h3>
+
 
           <div className="skills-grid">
 
-            <div className="skill-card">
-              <span className="skill-icon">L</span>
-              <h4>Linux</h4>
-              <p>Server Administration</p>
-            </div>
 
-            <div className="skill-card">
-              <span className="skill-icon">N</span>
-              <h4>Nginx</h4>
-              <p>Web Server</p>
-            </div>
+            {/* LINUX */}
 
-            <div className="skill-card">
-              <span className="skill-icon">NM</span>
-              <h4>Nmap</h4>
-              <p>Network Scanning</p>
-            </div>
+            <article className="skill-card">
 
-            <div className="skill-card">
-              <span className="skill-icon">WG</span>
-              <h4>WireGuard</h4>
-              <p>VPN & Networking</p>
-            </div>
+              <div className="skill-icon">
+                LNX
+              </div>
 
-            <div className="skill-card">
-              <span className="skill-icon">AG</span>
-              <h4>AdGuard Home</h4>
-              <p>DNS & Network Security</p>
-            </div>
+              <h4>
+                Linux
+              </h4>
 
-            <div className="skill-card">
-              <span className="skill-icon">G</span>
-              <h4>Git</h4>
-              <p>Version Control</p>
-            </div>
+              <p>
+                Server administration and Linux environments.
+              </p>
 
-          </div>
+              <div className="skill-level">
 
-        </div>
+                <div className="skill-level-bar">
+                  <span className="level-linux"></span>
+                </div>
+
+                <span className="skill-level-text">
+                  Intermediate
+                </span>
+
+              </div>
+
+            </article>
 
 
-        {/* DATABASES */}
+            {/* NETWORKING */}
 
-        <div className="skills-category">
+            <article className="skill-card">
 
-          <h3>DATABASES & TOOLS</h3>
+              <div className="skill-icon">
+                NET
+              </div>
 
-          <div className="skills-grid">
+              <h4>
+                Networking
+              </h4>
 
-            <div className="skill-card">
-              <span className="skill-icon">SQL</span>
-              <h4>MySQL</h4>
-              <p>Database Management</p>
-            </div>
+              <p>
+                Network configuration, troubleshooting and infrastructure.
+              </p>
 
-            <div className="skill-card">
-              <span className="skill-icon">VS</span>
-              <h4>VS Code</h4>
-              <p>Development Environment</p>
-            </div>
+              <div className="skill-level">
 
-            <div className="skill-card">
-              <span className="skill-icon">VB</span>
-              <h4>VirtualBox</h4>
-              <p>Virtualization</p>
-            </div>
+                <div className="skill-level-bar">
+                  <span className="level-network"></span>
+                </div>
+
+                <span className="skill-level-text">
+                  Intermediate
+                </span>
+
+              </div>
+
+            </article>
+
+
+            {/* NGINX */}
+
+            <article className="skill-card">
+
+              <div className="skill-icon">
+                NGX
+              </div>
+
+              <h4>
+                Nginx
+              </h4>
+
+              <p>
+                Web servers, reverse proxy and deployment.
+              </p>
+
+              <div className="skill-level">
+
+                <div className="skill-level-bar">
+                  <span className="level-nginx"></span>
+                </div>
+
+                <span className="skill-level-text">
+                  Intermediate
+                </span>
+
+              </div>
+
+            </article>
+
+
+            {/* GIT */}
+
+            <article className="skill-card">
+
+              <div className="skill-icon">
+                GIT
+              </div>
+
+              <h4>
+                Git
+              </h4>
+
+              <p>
+                Version control and project management.
+              </p>
+
+              <div className="skill-level">
+
+                <div className="skill-level-bar">
+                  <span className="level-git"></span>
+                </div>
+
+                <span className="skill-level-text">
+                  Intermediate
+                </span>
+
+              </div>
+
+            </article>
+
+
+            {/* RASPBERRY PI */}
+
+            <article className="skill-card">
+
+              <div className="skill-icon">
+                RPI
+              </div>
+
+              <h4>
+                Raspberry Pi
+              </h4>
+
+              <p>
+                Small server environments and network services.
+              </p>
+
+              <div className="skill-level">
+
+                <div className="skill-level-bar">
+                  <span className="level-rpi"></span>
+                </div>
+
+                <span className="skill-level-text">
+                  Intermediate
+                </span>
+
+              </div>
+
+            </article>
+
+
+            {/* WIREGUARD */}
+
+            <article className="skill-card">
+
+              <div className="skill-icon">
+                WG
+              </div>
+
+              <h4>
+                WireGuard
+              </h4>
+
+              <p>
+                VPN configuration and secure remote access.
+              </p>
+
+              <div className="skill-level">
+
+                <div className="skill-level-bar">
+                  <span className="level-wg"></span>
+                </div>
+
+                <span className="skill-level-text">
+                  Intermediate
+                </span>
+
+              </div>
+
+            </article>
+
 
           </div>
 

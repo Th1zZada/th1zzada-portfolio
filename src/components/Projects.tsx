@@ -1,7 +1,6 @@
 function Projects() {
   return (
-    <section id="projects" className="projects">
-
+    <section className="projects" id="projects">
       <div className="section-container">
 
         <div className="section-header">
@@ -10,25 +9,24 @@ function Projects() {
         </div>
 
         <p className="projects-intro">
-          A selection of projects I've developed while
-          learning and experimenting with technology.
+          A selection of projects I've developed while exploring
+          software development, systems, networking and server technologies.
         </p>
-
 
         <div className="projects-grid">
 
-
-          {/* PROJECT 1 */}
+          {/* PROJECT 01 */}
 
           <article className="project-card">
 
-            <div className="project-top">
-              <span className="project-number">
-                01
-              </span>
+            <div className="project-preview server-preview">
+              <span>SERVER</span>
+            </div>
 
+            <div className="project-top">
+              <span className="project-number">01</span>
               <span className="project-type">
-                SERVER
+                SERVER / NETWORK
               </span>
             </div>
 
@@ -37,59 +35,61 @@ function Projects() {
             </h3>
 
             <p>
-              A complete server platform designed for
-              small businesses, featuring system
-              monitoring, file management, backups,
-              network inventory and DNS security.
+              A complete server platform developed for small
+              business environments using a Raspberry Pi.
+              Includes monitoring, file management, backups,
+              network inventory and DNS protection.
             </p>
 
             <div className="project-tech">
-              <span>Ubuntu</span>
-              <span>Node.js</span>
-              <span>Nginx</span>
-              <span>AdGuard</span>
-              <span>Nmap</span>
+              <span>NODE.JS</span>
+              <span>UBUNTU</span>
+              <span>NGINX</span>
+              <span>NMAP</span>
+              <span>ADGUARD</span>
+              <span>WIREGUARD</span>
             </div>
 
-            <a
-              href="#"
-              className="project-link"
-            >
-              VIEW PROJECT →
-            </a>
+           <a
+  href="/project/enterprise-server"
+  className="project-link"
+>
+  VIEW PROJECT →
+</a>
 
           </article>
 
 
-          {/* PROJECT 2 */}
+          {/* PROJECT 02 */}
 
           <article className="project-card">
 
-            <div className="project-top">
-              <span className="project-number">
-                02
-              </span>
+            <div className="project-preview portfolio-preview">
+              <span>TH1ZZADA.DEV</span>
+            </div>
 
+            <div className="project-top">
+              <span className="project-number">02</span>
               <span className="project-type">
-                WEB
+                WEB DEVELOPMENT
               </span>
             </div>
 
             <h3>
-              Personal Portfolio
+              Th1zZada Portfolio
             </h3>
 
             <p>
-              A modern personal portfolio focused on
-              web development, technology and
-              professional projects.
+              Personal developer portfolio focused on presenting
+              my skills, projects and experience through a modern
+              interface with a dark blue and purple visual identity.
             </p>
 
             <div className="project-tech">
-              <span>React</span>
-              <span>TypeScript</span>
+              <span>REACT</span>
+              <span>TYPESCRIPT</span>
+              <span>VITE</span>
               <span>CSS</span>
-              <span>Vite</span>
             </div>
 
             <a
@@ -102,51 +102,48 @@ function Projects() {
           </article>
 
 
-          {/* PROJECT 3 */}
+          {/* PROJECT 03 */}
 
           <article className="project-card">
 
-            <div className="project-top">
-              <span className="project-number">
-                03
-              </span>
+            <div className="project-preview versifera-preview">
+              <span>VERSIFERA</span>
+            </div>
 
+            <div className="project-top">
+              <span className="project-number">03</span>
               <span className="project-type">
-                NETWORK
+                WEB PROJECT
               </span>
             </div>
 
             <h3>
-              Network Infrastructure
+              Versifera
             </h3>
 
             <p>
-              Network administration and infrastructure
-              projects involving VPNs, DNS filtering,
-              network scanning and server configuration.
+              A new web project currently under development,
+              focused on creating a modern digital experience
+              with a strong visual identity.
             </p>
 
             <div className="project-tech">
-              <span>Linux</span>
-              <span>WireGuard</span>
-              <span>Nmap</span>
-              <span>Networking</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JAVASCRIPT</span>
             </div>
 
-            <a
-              href="#"
-              className="project-link"
-            >
-              VIEW PROJECT →
-            </a>
+           <a
+  href="/project/versifera"
+  className="project-link"
+>
+  VIEW PROJECT →
+</a>
 
           </article>
-
 
         </div>
-
       </div>
-
     </section>
   );
 }
